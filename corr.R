@@ -1,3 +1,9 @@
+## Programming Assignment 1: Air Pollution
+##
+## takes a directory of data files and a threshold for complete cases and 
+## calculates the correlation between sulfate and nitrate for monitor 
+## locations where the number of completely observed cases (on all variables) 
+## is greater than the threshold
 corr <- function(directory, threshold = 0) {
   ## 'directory' is a character vector of length 1 indicating
   ## the location of the CSV files
