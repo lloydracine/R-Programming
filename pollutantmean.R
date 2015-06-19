@@ -1,3 +1,7 @@
+## Programming Assignment 1: Air Pollution
+##
+## calculates the mean of a pollutant (sulfate or nitrate) across a specified 
+## list of monitors
 pollutantmean <- function(directory, pollutant, id = 1:332) {
   ## 'directory' is a character vector of length 1 indicating
   ## the location of the CSV files
