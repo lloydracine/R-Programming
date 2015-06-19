@@ -1,3 +1,7 @@
+## Programming Assignment 1: Air Pollution
+##
+## reads a directory full of files and reports the number of completely 
+## observed cases in each data file
 complete <- function(directory, id = 1:332) {
   ## 'directory' is a character vector of length 1 indicating
   ## the location of the CSV files
